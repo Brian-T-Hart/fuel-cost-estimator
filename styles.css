@@ -1,0 +1,93 @@
+body {
+    /* background-color: #FFA500; */
+    background: linear-gradient(to top, darkorange, #FFC233);
+    font-size: 18px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#fuel-cost-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 40px;
+    width: 100%;
+}
+
+#fuel-cost-form {
+    max-width: 90%;
+    width: 400px;
+}
+
+#fuel-cost-form fieldset {
+    border-color: #E8E8E8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#fuel-cost-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#fuel-cost-form input {
+    padding: 5px;
+}
+
+#fuel-cost-form .field {
+    margin-bottom: 15px;
+}
+
+#fuel-cost-form #fuel-cost-submit {
+    background-color: #fff;
+    border-width: 0;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+#fuel-cost-modal-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+}
+
+#fuel-cost-modal {
+    background-color: #fff;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    width: 500px;
+    max-width: 90%;
+}
+
+#fuel-cost-modal-header {
+    border-bottom: 1px solid #E8E8E8;
+    padding: 20px;
+}
+
+#fuel-cost-modal-body {
+    padding: 20px;
+}
+
+#fuel-cost-modal-close {
+    cursor: pointer;
+    float: right;
+}
+
+.hidden {
+    display: none !important;
+}
