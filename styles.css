@@ -88,6 +88,13 @@ h3 {
     float: right;
 }
 
+#fuel-cost-form #compare-link {
+    color: #E8E8E8;
+    cursor: pointer;
+    float: right;
+    padding: 15px 20px;
+}
+
 .hidden {
     display: none !important;
 }
